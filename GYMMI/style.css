@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: "poppins", sans-serif;
+}
+.navbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 3% 5%;
+  z-index: 10;
+}
+
+.navbar_netflix {
+  width: 100px;
+  height: 100%;
+}
+.navbar_nav_items {
+  display: flex;
+  gap: 10px;
+}
+.netflix_logo {
+  width: 100%;
+  height: 100%;
+}
+
+.Language_drop_down {
+  background: transparent;
+  border: none;
+  color: grey;
+}
+.dropdown_container {
+  border: 1px solid white;
+  padding: 0.4rem;
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0);
+}
+
+.signin_button {
+  border: #dc030f;
+  background-color: #dc030f;
+  color: white;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  height: 35px;
+  width: 100px;
+}
+
+.hero_bg_image_container {
+  width: 100%;
+  height: 100%;
+}
+
+.hero_bg_image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+}
+.hero_bg_overlay {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+.hero_card {
+  position: absolute;
+  top: 32%;
+  left: 38%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.hero_title {
+  font-weight: 600;
+  font-size: 4.2rem;
+}
+.hero_subtitle {
+  font-weight: 400;
+  font-size: 1.7rem;
+}
+.hero_description {
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.get_started {
+  /* border: none; */
+  color: white;
+  padding: 35px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  background-color: #dc030f;
+  border: 1px solid #dc030f;
+  border-radius: 12px;
+}
+button:hover{
+  background-color: #f2464f;
+  cursor: pointer;
+}
+
+/* video{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    object-fit: cover;
+    z-index: 3;} */

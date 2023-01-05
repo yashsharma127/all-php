@@ -1,0 +1,29 @@
+-------PERSONAL DETAILS
+NAME
+DOB                                           XXIMAGEXX
+EMAIL                                          UPLOAD
+MOBILE NO.
+GENDER
+
+-------FAMILY DETAILS
+xxxxxxFATHERSxxxxxx 
+NAME
+DOB
+OCCUPATION
+
+xxxxxxMOTHERSxxxxxx
+NAME
+DOB
+OCCUPATION
+
+-------ADDRESS DETAILS
+COUNTARY
+STATE 
+CITY
+PINCODE
+
+-------EDUCATION DETAILS
+NAME OF INSTITUTE
+ADDRESS
+PINCODE
+DEGREE
